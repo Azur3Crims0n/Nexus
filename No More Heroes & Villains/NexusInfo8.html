@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="Alter.css">
+        <title>Nexus</title>
+    </head>
+    <body>
+        <h2>Welcome to Nexus.</h2>
+
+        <h2 style="color: rgb(85, 129, 129)">Rika Ito</h2>
+
+        <img class="image1" src="placeholder.png" alt="placeholder.">
+  
+  
+        <h3>Known Info on Hero</h3>
+       
+        
+        <div class="container">
+           <ul class="myUL">
+                <li>Race: Human</li>
+                <li>Age: 19</li>
+                <li>Gender: Female</li>
+                <li>Alignment: Hero (Neutral-Good)</li>
+                <li>Height: 165cm (5'4)</li>
+                <li>Weight: 47kg (104 lbs)</li>
+                <li>Blood Type: A-</li>
+                <li>Power: Godly Blessing [Manipulation, Heal, Charm, etc]</li>
+                <li>Weakness: Anyone With Mental Resistances, Direct Damage.</li>
+                <li>Allies: Toya Shizumi, Naomi Hinode.</li>
+                <li>Enemies: Demon King, Demons, Monsters, Rin Shanguhai, Keijiro Takimoto, and More</li>
+                <li>Personality: False, Manipulative, Attractive, “Cutesy”, Alluring.</li>
+                <li>Fears: Being Seen as Ugly, Being Hated By Masses, Death.</li>
+                <li>Likes: Toying with others, Money.</li>
+                <li>Dislikes: Pushovers, Incompetent men, Women More Attractive Than Her.</li>
+                <li>Motivation: Defeating the Demon King, Getting Whatever She Wants.</li>
+                <li>Weapon Type: Magic</li>
+                <li>Hobbies: Carving, Journaling, Dowsing.</li>
+                <li>Distinctive Traits: </li>
+            </ul>
+        </div>
+  
+        <p>Small Biography and Description
+  
+          “Quote”
+          </p>
+        <br>
+        <h4>Physical Description on Hero</h4>
+        <p>Actual Description of character physically</p>
+
+        <div class="hover-zone"></div>
+        <div class="sidenav">
+          <a href="nexus.html">Home</a>
+          <h1>Heroes</h1>
+          <a href="NexusInfo1.html">GH-0-ST</a>
+          <a href="NexusInfo4.html">Jin Seiji</a>
+          <a href="NexusInfo3.html">Hikari Hajime</a>
+          <a href="NexusInfo2.html">Takimu Fritz</a>
+          <a href="NexusInfo7.html">Toya Shimizu</a>
+          <a class="active" href="NexusInfo8.html">Rika Ito</a>
+          <a href="NexusInfo9.html">Naomi Hinode</a>
+          <h1>Villains</h1>
+          <a href="NexusInfo6.html">Keijiro Takimoto</a>
+          <a href="NexusInfo5.html">Rin Shanguhai</a>
+          <h1>General</h1>
+          <a href="NexusRelationship.html">Character Relations</a>
+          <a href="NexusTeam.html">Character Teams</a>
+          <a href="NexusStory.html">Story</a>
+          <a href="NexusWorld.html">Worldbuilding</a>
+      </div>
+
+
+        <script>
+            const sidenav = document.querySelector('.sidenav');
+            const hoverZone = document.querySelector('.hover-zone');
+          
+            hoverZone.addEventListener('mouseenter', () => {
+              sidenav.classList.add('open');
+            });
+          
+            sidenav.addEventListener('mouseleave', () => {
+              sidenav.classList.remove('open');
+            });
+          
+            // Optional: close if a link is clicked
+            sidenav.addEventListener('click', (e) => {
+              if (e.target.tagName === 'A') {
+                sidenav.classList.remove('open');
+              }
+            });
+          </script>
+          
+          
+
+
+
+          
+    </body>
+</html>

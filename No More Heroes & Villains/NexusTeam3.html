@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="Alter.css">
+        <title>Nexus</title>
+    </head>
+    <body>
+        <h2>Welcome to Nexus.</h2>
+
+        
+
+        <div class="hover-zone"></div>
+        <div class="sidenav">
+          <a  href="nexus.html">Home</a>
+          <h1>Heroes</h1>
+          <a href="NexusInfo1.html">GH-0-ST</a>
+          <a href="NexusInfo4.html">Jin Seiji</a>
+          <a href="NexusInfo3.html">Hikari Hajime</a>
+          <a href="NexusInfo2.html">Takimu Fritz</a>
+          <a href="NexusInfo7.html">Toya Shimizu</a>
+          <a href="NexusInfo8.html">Rika Ito</a>
+          <a href="NexusInfo9.html">Naomi Hinode</a>
+          <h1>Villains</h1>
+          <a href="NexusInfo6.html">Keijiro Takimoto</a>
+          <a href="NexusInfo5.html">Rin Shanguhai</a>
+          <a href="NexusRelationship.html">Character Relations</a>
+          <a href="NexusStory.html">Story</a>
+          <a href="NexusWorld.html">Worldbuilding</a>
+          <a href="NexusTeam.html">Teams</a>
+          <h1>Teams</h1>
+          <a href="NexusTeam1.html">Hero Team 1</a>
+          <a href="NexusTeam2.html">Hero Team 2</a>
+          <a class="active" href="NexusTeam3.html">Villain Team</a>
+          <a href="NexusTeam4.html">Combat Team 1</a>
+          <a href="NexusTeam5.html">Important Side Characters</a>
+      </div>
+
+
+        <script>
+            const sidenav = document.querySelector('.sidenav');
+            const hoverZone = document.querySelector('.hover-zone');
+          
+            hoverZone.addEventListener('mouseenter', () => {
+              sidenav.classList.add('open');
+            });
+          
+            sidenav.addEventListener('mouseleave', () => {
+              sidenav.classList.remove('open');
+            });
+          
+            // Optional: close if a link is clicked
+            sidenav.addEventListener('click', (e) => {
+              if (e.target.tagName === 'A') {
+                sidenav.classList.remove('open');
+              }
+            });
+          </script>
+          
+          
+
+
+
+          
+    </body>
+</html>
