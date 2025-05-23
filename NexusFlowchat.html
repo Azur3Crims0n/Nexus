@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="Alter.css">
+        <title>Nexus</title>
+    </head>
+    <body>
+        <h2>Flowchart !</h2>
+
+        <p>
+          I'm going to be honest, we didn't really use a flowchart to make this website. We just kinda decided on a whim on what our website would look like.
+          We did have a picture from before we really started, which was the basic info we had before thinking a lot more.
+        </p>
+
+        <img class="image2"  src="20250505_1402_Website Structure Flowchart_simple_compose_01jtgsrn43e1kv0t25wxaam7rg.png" alt="a poorly detailed flowchart.">
+
+        <p>
+          The flowchart could be a lot better, but it does explain what we had in mind at the beginning of the project. 
+          You can tell we put a lot of work into the pages of this website to make sure it's good.
+         </p>
+
+         <img  class="image1" src="smile.jpg" alt="emoji smiling with a thumbs up!"> 
+
+        <div class="hover-zone"></div>
+        <div class="sidenav">
+            <a href="nexus.html">Home</a>
+            <a href="NexusInfo1.html">GH-0-ST</a>
+            <a href="NexusInfo2.html">Jin Seiji</a>
+            <a href="NexusInfo3.html">Hakari Hajime</a>
+            <a href="NexusInfo4.html">Takimu Fritz</a>
+            <a href="NexusInfo5.html">Rin Shanguhai</a>
+            <a href="NexusInfo6.html">Keijiro Takimoto</a>
+            <a href="NexusInfo7.html">Toya Shimizu</a>
+            <a href="NexusInfo8.html">Rika Ito</a>
+            <a href="NexusInfo9.html">Naomi Hinode</a>
+            <a href="NexusStory.html">Story</a>
+            <a href="NexusWorld.html">Worldbuilding</a>
+            <a class="active" href="NexusFlowchat.html">Flowchart</a>
+            <a href="NexusWireframe.html">Wireframe</a>
+            <a href="NexusContact.html">Contact Us</a>
+        </div>
+
+
+        <script>
+            const sidenav = document.querySelector('.sidenav');
+            const hoverZone = document.querySelector('.hover-zone');
+          
+            hoverZone.addEventListener('mouseenter', () => {
+              sidenav.classList.add('open');
+            });
+          
+            sidenav.addEventListener('mouseleave', () => {
+              sidenav.classList.remove('open');
+            });
+          
+            // Optional: close if a link is clicked
+            sidenav.addEventListener('click', (e) => {
+              if (e.target.tagName === 'A') {
+                sidenav.classList.remove('open');
+              }
+            });
+          </script>
+          
+          
+
+
+
+          
+    </body>
+</html>
