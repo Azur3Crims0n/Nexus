@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="Alter.css">
+        <title>Nexus</title>
+    </head>
+    <body>
+        <h2>Combat Team</h2>
+        <p>There was a rag tag group of people who teamed up to fight Archthrall. A mix of different people who came together to take down the leaders within this organization. 
+          <br>This combat team consists of five people, each fighting for their own reasons. Some noble, others irrational, and some even just plain emotion driven.
+          <br>The team's only common idea, was that Archthrall is to be taken out. They're a team gathered by this one purpose, nothing else matters to them.
+          <br>This team had no leader as everyone was gathered in the heat of the moment, the closest thing they had to a leader would be the one barking orders at the others on how to win their fight; Jin Seiji. He had no real reason for going after Archthrall, he simply wanted to get stronger and found them as suitable training subjects, as well as pleas from the country in which they were based. He, at some point, was send a robot named GH-0-ST by the rest of his original party. GH-0-ST was a robot with a vendetta against the Archthrall organization. He was a machine with highly addvanced AI created by this organization. They treated him terribly even though all he wanted to do was learn his newfound emotions and live a more human life. Upon confronting Archthrall, they had seemed to capture the Hero's Party consisting of Toya Shimizu, Rika Ito, and Naomi Hinode. These three had an unfortunate encounter with the organization and ended up being captured. They're now fighting for their release and to be rid of this organization.
+          <br>The group only had one objective, to take out Archhthrall. All other goals or objectives were put on hold in place of this, and this group would be dispanded once the goal had been achieved.
+        </p>
+
+        
+
+        <div class="hover-zone"></div>
+        <div class="sidenav">
+          <a  href="nexus.html">Home</a>
+          <h1>Heroes</h1>
+          <a href="NexusInfo1.html">GH-0-ST</a>
+          <a href="NexusInfo4.html">Jin Seiji</a>
+          <a href="NexusInfo3.html">Hikari Hajime</a>
+          <a href="NexusInfo2.html">Takimu Fritz</a>
+          <a href="NexusInfo7.html">Toya Shimizu</a>
+          <a href="NexusInfo8.html">Rika Ito</a>
+          <a href="NexusInfo9.html">Naomi Hinode</a>
+          <h1>Villains</h1>
+          <a href="NexusInfo6.html">Keijiro Takimoto</a>
+          <a href="NexusInfo5.html">Rin Shanguhai</a>
+          <h1>General</h1>
+          <a href="NexusRelationship.html">Character Relations</a>
+          <a href="NexusStory.html">Story</a>
+          <a href="NexusWorld.html">Worldbuilding</a>
+          <a href="NexusContact.html">Contact Us</a>
+          <a href="NexusTeam.html">Teams</a>
+          <h1>Teams</h1>
+          <a href="NexusTeam1.html">Hero's Party</a>
+          <a href="NexusTeam2.html">Backup Heroes</a>
+          <a href="NexusTeam3.html">Archthrall</a>
+          <a class="active" href="NexusTeam4.html">Combat Team</a>
+          <a href="NexusTeam5.html">Important Unaffiliated Characters</a>
+      </div>
+
+
+        <script>
+            const sidenav = document.querySelector('.sidenav');
+            const hoverZone = document.querySelector('.hover-zone');
+          
+            hoverZone.addEventListener('mouseenter', () => {
+              sidenav.classList.add('open');
+            });
+          
+            sidenav.addEventListener('mouseleave', () => {
+              sidenav.classList.remove('open');
+            });
+          
+            // Optional: close if a link is clicked
+            sidenav.addEventListener('click', (e) => {
+              if (e.target.tagName === 'A') {
+                sidenav.classList.remove('open');
+              }
+            });
+          </script>
+          
+          
+
+
+
+          
+    </body>
+</html>

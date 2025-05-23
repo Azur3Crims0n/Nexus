@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="Alter.css">
+        <title>Nexus</title>
+    </head>
+    <body>
+        <h2>Welcome to Nexus.</h2>
+
+        <h2 style="color: rgb(85, 129, 129)">Jin Seiji</h2>
+
+        <img class="image1" src="JinSeiji.png" alt="placeholder.">
+  
+  
+        <h3>Known Info on Hero</h3>
+       
+        
+        <div class="container">
+           <ul class="myUL">
+                <li>Race: Human</li>
+                <li>Age: 27</li>
+                <li>Gender: Male</li>
+                <li>Alignment: Hero (True-Neutral)</li>
+                <li>Height: 185mc (6'1)</li>
+                <li>Weight: 66kg (145 lbs)</li>
+                <li>Blood Type: O-</li>
+                <li>Power: Patron's System [Anarchy & Parity]</li>
+                <li>Weakness: Ability's Effects are set, Ability Only Works on Willing Targets.</li>
+                <li>Allies: Takumi Fritz, Haruki Hajime, GH-0-ST, and Others.</li>
+                <li>Enemies: Anyone In His Way</li>
+                <li>Personality: Cold, Outwardly Uncaring, Hypervigilant, Calous.</li>
+                <li>Fears: Getting close to others, losing those he cares for, being betrayed, himself.</li>
+                <li>Likes: Black Coffee, Sweet Tea, Fruits, Fighting, Those Who do What’s Necessary, Happy Families.</li>
+                <li>Dislikes: Idiots, Unnecessary Actions, Pity, Himself.</li>
+                <li>Motivation: Revenge, Saving certain people, getting stronger.</li>
+                <li>Weapon Type: Anything He Can Get His Hands On, His Body.</li>
+                <li>Hobbies: Training, Tinkering, Making things, Improving, Lock Picking.</li>
+                <li>Distinctive Traits: Golden Orange eyes, Paints Nails Black, Talks To himself.</li>
+            </ul>
+        </div>
+  
+        <p>He's the most well known party member of the party Backup Hero, but not in a positive light. He is known as the cruelest member, having the capability to empathize but refusing to. He was given the nickname Souless Solo, in refrence to him being a one man army and his tendency to only do what is neccecary. He rarely considers the unnecessary and will always strive to be even stronger.
+  
+          “I'm not a hero anymore. Just the enemy of your enemy.”
+          </p>
+        <br>
+        <h4>Physical Description on Hero</h4>
+        <p>Actual Description of character physically</p>
+        
+
+        <div class="hover-zone"></div>
+        <div class="sidenav">
+          <a href="nexus.html">Home</a>
+          <h1>Heroes</h1>
+          <a href="NexusInfo1.html">GH-0-ST</a>
+          <a class="active" href="NexusInfo4.html">Jin Seiji</a>
+          <a href="NexusInfo3.html">Hikari Hajime</a>
+          <a href="NexusInfo2.html">Takimu Fritz</a>
+          <a href="NexusInfo7.html">Toya Shimizu</a>
+          <a href="NexusInfo8.html">Rika Ito</a>
+          <a href="NexusInfo9.html">Naomi Hinode</a>
+          <h1>Villains</h1>
+          <a href="NexusInfo6.html">Keijiro Takimoto</a>
+          <a href="NexusInfo5.html">Rin Shanguhai</a>
+          <h1>General</h1>
+          <a href="NexusRelationship.html">Character Relations</a>
+          <a href="NexusTeam.html">Character Teams</a>
+          <a href="NexusStory.html">Story</a>
+          <a href="NexusWorld.html">Worldbuilding</a>
+          <a href="NexusContact.html">Contact Us</a>
+      </div>
+
+
+        <script>
+            const sidenav = document.querySelector('.sidenav');
+            const hoverZone = document.querySelector('.hover-zone');
+          
+            hoverZone.addEventListener('mouseenter', () => {
+              sidenav.classList.add('open');
+            });
+          
+            sidenav.addEventListener('mouseleave', () => {
+              sidenav.classList.remove('open');
+            });
+          
+            // Optional: close if a link is clicked
+            sidenav.addEventListener('click', (e) => {
+              if (e.target.tagName === 'A') {
+                sidenav.classList.remove('open');
+              }
+            });
+          </script>
+          
+          
+
+
+
+          
+    </body>
+</html>

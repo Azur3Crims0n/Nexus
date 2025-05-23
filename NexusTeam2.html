@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="Alter.css">
+        <title>Nexus</title>
+    </head>
+    <body>
+        <h2>The Backup Heroes</h2>
+        <img class="image1" src="BackupHeroTeam.png" alt="An average brown haired young man with a shield attached to his arm as well as a bow with a knocked arrow readied stands infront of a dark skinned elf woman with purple hair and a warm smile; as well as a man in black clothing, black hair, bright orange eyes, and a very clear attittude. ">
+        <p>There are two main parties to focus on in Backup Hero, the Hero's Party and the Backup Heroes. The Backup Heroes party is the main focus of the show and displays three different characters from various backgrounds that all somehow ended up getting transmigrated to this world one way or another.
+        <br>This party has three members; Takumi Fritz, Hikari Hajime, and Jin Seiji. They would sometimes separate or recruit others to work with them but this would always end up being temorary. Each being from a different background, but ultimatly feeling near chosen for the same purpose; to protect the world if somehow, under any reason, the Hero's Party fialed. They take care of the world's smaller problems and the upkeep while the Hero's Party readies themselves to take on their own mission.
+        <br>Each party member seemed to have a fairly similar reason for becoming a part of the party, some more begrudgingly than others. This gave the team a sense of closeness and ability to work closely together. 
+        <br>The leader would end up being the founder of the party as well as the most mundane of the trio, Takumi Fritz. He was a fresh college student who ended up being summoned to this world along with his classmates, three of which went on to form the Hero's Party. His skillset was basic but his ability to learn was like no other. He specialized in ranged comabat and assasination, while maintaining some studies in magic with his left hand woman and the one who he had the most time in the party with; Hikari Hajime, a woman who was quite the rare breed herself. She was told to be a cross between a dark-elf and a half-elf, making her a strange type of hybrid which there were very few and even fewer survivors. She was the party's resident magic expert and found it easy for herself to befriend animals and other creatures. She was very magically gifted, one could almost call it a blessing from the gods, almost. The right hand and most trusted by the party is the one with the worst and most begrudging attitude, Jin Seiji. He's the resident generalist, learing anything he deems useful. He's a skilled close combat fighter, specializing in makeshift weaponry and hand to hand combat. Anything the other two are incapable of doing or are having trouble doing, he can most likely do it himself.
+        <br>The ultimate goal for this party is to keep the world as safe as they can while assisting otherworlders in their problems.
+         </p>
+        <img class="image1" src="backupHeroes.png" alt="A symbol Representing the Backup Hero Party.">
+
+        
+
+        <div class="hover-zone"></div>
+        <div class="sidenav">
+          <a  href="nexus.html">Home</a>
+          <h1>Heroes</h1>
+          <a href="NexusInfo1.html">GH-0-ST</a>
+          <a href="NexusInfo4.html">Jin Seiji</a>
+          <a href="NexusInfo3.html">Hikari Hajime</a>
+          <a href="NexusInfo2.html">Takimu Fritz</a>
+          <a href="NexusInfo7.html">Toya Shimizu</a>
+          <a href="NexusInfo8.html">Rika Ito</a>
+          <a href="NexusInfo9.html">Naomi Hinode</a>
+          <h1>Villains</h1>
+          <a href="NexusInfo6.html">Keijiro Takimoto</a>
+          <a href="NexusInfo5.html">Rin Shanguhai</a>
+          <h1>General</h1>
+          <a href="NexusRelationship.html">Character Relations</a>
+          <a href="NexusStory.html">Story</a>
+          <a href="NexusWorld.html">Worldbuilding</a>
+          <a href="NexusContact.html">Contact Us</a>
+          <a href="NexusTeam.html">Teams</a>
+          <h1>Teams</h1>
+          <a href="NexusTeam1.html">Hero's Party</a>
+          <a class="active" href="NexusTeam2.html">Backup Heroes</a>
+          <a href="NexusTeam3.html">Archthrall</a>
+          <a href="NexusTeam4.html">Combat Team</a>
+          <a href="NexusTeam5.html">Important Unaffiliated Characters</a>
+      </div>
+
+
+        <script>
+            const sidenav = document.querySelector('.sidenav');
+            const hoverZone = document.querySelector('.hover-zone');
+          
+            hoverZone.addEventListener('mouseenter', () => {
+              sidenav.classList.add('open');
+            });
+          
+            sidenav.addEventListener('mouseleave', () => {
+              sidenav.classList.remove('open');
+            });
+          
+            // Optional: close if a link is clicked
+            sidenav.addEventListener('click', (e) => {
+              if (e.target.tagName === 'A') {
+                sidenav.classList.remove('open');
+              }
+            });
+          </script>
+          
+          
+
+
+
+          
+    </body>
+</html>

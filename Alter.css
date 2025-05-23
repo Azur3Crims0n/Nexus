@@ -1,0 +1,167 @@
+h2 {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h4 {
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: darkcyan;
+}
+
+body {
+    background-color: #6BA4C1;
+}
+
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/* Style the side navigation */
+.sidenav {
+    height: 100%;
+    width: 0; /*stays hidden on startup*/
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(36, 82, 124);
+    overflow-x: hidden;
+    transition: 0.3s;
+    pointer-events: none;
+  }
+  
+  .sidenav.open {
+    width: 200px; /* Width when open */
+    pointer-events: auto;
+  }
+  
+  .hover-zone {
+     position: fixed;
+     top: 0;
+     left: 0;
+     height: 100%;
+     width: 20px;
+     z-index: 2;
+  }
+
+
+  /* Side navigation links */
+  .sidenav a {
+    color: rgb(209, 200, 72);
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .active {
+    background-color: rgb(230, 8, 8);
+  }
+  
+  /* Change color on hover */
+  .sidenav a:hover {
+    background-color: blue;
+    color: red;
+  }
+
+  .image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+
+  h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(230, 8, 8);
+    text-align: center;
+  }
+
+  ul, li {
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: firebrick;
+  }
+
+  .container {
+    text-align: center;
+    padding-right: 3%;
+  }
+
+  .myUL{
+    display: inline-block;
+    text-align: left;
+  }
+
+  #animated-text {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  /*For the duck...obviuosly*/
+
+ .duck {
+    width: 30px;
+    height: 20px;
+  }
+
+  /*For Relationships Table*/
+  
+
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 16px; /* Increased padding */
+    min-width: 300px; /* Wider cells */
+    height: 80px; /* Taller cells */
+    word-wrap: break-word; /* Ensures long words wrap */
+    white-space: normal; /* Allow multi-line */
+    vertical-align: middle;
+  }
+
+  th {
+    background-color: #f0f0f0;
+    top: 0;
+    z-index: 2;
+  }
+
+  td.diagonal {
+    background-color: #eaeaea;
+    color: #999;
+    font-style: italic;
+  }
+
+  td:hover:not(.diagonal) {
+    background-color: #dff0ff;
+    cursor: pointer;
+  }
+
+  caption {
+    caption-side: top;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .image2 {
+    display: block;
+    width: 30%;
+    float: left;
+  }
